@@ -25,7 +25,7 @@ contador_imagem = 0
 
 def verificar_novas_compras():
     global ultima_compra, contador_imagem
-    response = requests.get(API_URL)
+    response = requests.get(https://api.ociswap.com/tokens/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh)
     data = response.json()
 
     compra = data.get("ultima_compra")
