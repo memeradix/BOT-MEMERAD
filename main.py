@@ -5,10 +5,10 @@ import telegram
 # Configurações
 API_URL = "https://api.ociswap.com/tokens/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh"
 TELEGRAM_TOKEN = "7066555286:AAH5yIkl1UaFwIgdnlcnMEO5iiC0Tu31mt0"
-CHAT_ID = "-1002577329670"  # ID do grupo ou chat
+CHAT_ID = "-1002577329670" 
 
 # Criação do bot
-bot = telegram.Bot(token=TELEGRAM_TOKEN)
+bot = telegram.Bot(token=7066555286:AAH5yIkl1UaFwIgdnlcnMEO5iiC0Tu31mt0)
 
 # Lista de imagens
 imagens = [
@@ -36,6 +36,7 @@ def verificar_novas_compras():
     if compra != ultima_compra:
         ultima_compra = compra
         mensagem = f"""🐙 *MEMERAD Buy!*
+        🐙🐙
 
 ➡️ *Spent (TX)*:
 ${compra['usd']} ({compra['xrd']} XRD)
